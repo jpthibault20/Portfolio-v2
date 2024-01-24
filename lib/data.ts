@@ -39,21 +39,21 @@ export const projectsData = [
   {
     title: "Robot araignée autonome",
     description:
-      "Pour un projet de fin d'anée, j'ai réaliser un robot de type araignée completement autonome (pour se déplacer, scaner la pièce, retour a l'origine).",
+      "Pour un projet de fin d'année, j'ai réalisé un robot de type araignée complètement autonome (pour se déplacer, scanner la pièce, retour à l'origine).",
     tags: ["C++", "Arduino", "imprimante 3d", "Fusion 360"],
     imageUrl: robotAraignee,
   },
   {
     title: "Tee-shirt connectée",
     description:
-      "Tee shirt médicale dans le but de corriger une posture et apporter un confort suplémentaire ",
+      "Tee-shirt médical dans le but de corriger une posture et apporter un confort supplémentaire.",
     tags: ["espressif", "C", "Routing PCB", "cordova", "HTML", "CSS", "JavaScript"],
     imageUrl: teeShirtConnecte
   },
   {
     title: "Composant domotique",
     description:
-      "Réalisation de composants actioneur et capteur dans le but de la réalisation d'un système domotique complet (chauffage, lumière, température, présence, ...)",
+      "Réalisation de composants actionneurs et capteur dans le but de la réalisation d'un système domotique complète (chauffage, lumière, température, présence, ...).",
     tags: ["Home assistant", "esphome", "espressif", "Fusion 360", "Raspberry", "impression 3D"],
     imageUrl: homeAssistant,
   },
@@ -61,7 +61,7 @@ export const projectsData = [
   {
     title: "Portfolio",
     description:
-      "Création d'un protfolio responsive",
+      "Création d'un protfolio responsive.",
     tags: ["React", "Next.js", "Tailwind", "Typescript"],
     imageUrl: reactNextjs,
   },
