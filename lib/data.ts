@@ -54,7 +54,7 @@ export const projectsData = [
   {
     title: "Composant domotique",
     description:
-      "Réalisation de composants actionneurs et capteur dans le but de la réalisation d'un système domotique complète (chauffage, lumière, température, présence, ...).",
+      "Réalisation de composants actionneurs et capteur dans le but de la réalisation d'un système domotique complet (chauffage, lumière, température, présence, ...).",
     tags: ["Home assistant", "esphome", "espressif", "Fusion 360", "Raspberry", "impression 3D"],
     imageUrl: homeAssistant,
   },
@@ -68,7 +68,7 @@ export const projectsData = [
   {
     title: "Enregistreur",
     description:
-      "Réalisation d'un enregistreur autonome permettant la relève de nombreuses données pour un suivi en live des véhicules équipé.",
+      "Réalisation d'un enregistreur autonome permettant la relève de nombreuses données pour un suivi en live des véhicules équipés.",
     tags: ["Espressif", "C", "NMEA2000", "freeRTOS", "PCB"],
     imageUrl: dataloImage,
   },
@@ -110,7 +110,7 @@ export const experiencesData = [
     title: "Master EEA",
     location: "Metz, fr",
     description:
-      "Je suis rentré en licence, puis en master que j'ai validé avec succé, master EEA (Energie, Electronqiue, et Automatisme).",
+      "Je suis rentré en licence, puis en master que j'ai validé avec succès, master EEA (Energie, Electronqiue, et Automatisme).",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
@@ -126,7 +126,7 @@ export const experiencesData = [
     title: "LTG-tech",
     location: "Metz, fr",
     description:
-      "Alternance au sein de LTG-Tech (start-up) en tant qu'ingénieur puis emploie à temps complet.",
+      "Alternance au sein de LTG-Tech (start-up) en tant qu'ingénieur puis emploi à temps complet.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2024",
   },

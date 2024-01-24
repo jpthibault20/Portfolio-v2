@@ -32,8 +32,8 @@ export default function Contact() {
       <SectionHeading>Contactez-moi</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        contactez moi à :{" "}
-        <a className="underline" href="mailto:tjeanpierre757@gmail.com">
+        contactez-moi à :{" "}
+        <a className="italic" href="mailto:thibault@jp-developpement.com">
         thibault@jp-developpement.com
         </a>{" "}
         ou via ce formulaire.
@@ -58,12 +58,12 @@ export default function Contact() {
           type="email"
           required
           maxLength={500}
-          placeholder="Your email"
+          placeholder="Adresse mail"
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"
-          placeholder="Your message"
+          placeholder="Message"
           required
           maxLength={5000}
         />

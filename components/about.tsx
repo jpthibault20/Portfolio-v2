@@ -21,7 +21,7 @@ export default function About() {
       <p className="mb-3">
       Après avoir obtenu un bac+5 en {" "}
         <span className="font-medium">Energie, Electricité et Automatisme</span>, 
-        j'ai décidé de poursuivre ma passion pour la programmation J’ai complété 
+        j'ai décidé de poursuivre ma passion pour la programmation. J’ai complété 
         ma formation dans le{" "}
         <span className="font-medium">développement de software embarqué</span>.{" "}
         <span className="italic">Ce que je préfère dans la programmation</span>, c'est
@@ -39,8 +39,7 @@ export default function About() {
         <span className="italic">Quand je ne code pas</span>, 
         j'aime pratiquer du sport, en particulier le {" "}
         <span className="font-medium">vélo</span>{" "}
-        où je suis compétiteur à mes heures perdu. Et je suis en 
-        train d’apprendre à piloter une {" "} 
+        où je suis compétiteur à mes heures perdu. Et je pratique la {" "} 
         <span className="font-medium">moto</span>{" "} sur circuit.
       </p>
     </motion.section>
