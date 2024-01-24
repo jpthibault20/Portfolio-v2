@@ -1,11 +1,12 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+
 import robotAraignee from "@/public/robotAraignée.jpg";
 import teeShirtConnecte from "@/public/teeShirtConnect.jpg";
 import homeAssistant from "@/public/homeAssistant.png";
 import reactNextjs from '@/public/reacNextjs.png'
+import dataloImage from '@/public/datalogger.jpg'
 
 export const links = [
   {
@@ -57,13 +58,19 @@ export const projectsData = [
     tags: ["Home assistant", "esphome", "espressif", "Fusion 360", "Raspberry", "impression 3D"],
     imageUrl: homeAssistant,
   },
-
   {
     title: "Portfolio",
     description:
       "Création d'un protfolio responsive.",
     tags: ["React", "Next.js", "Tailwind", "Typescript"],
     imageUrl: reactNextjs,
+  },
+  {
+    title: "Enregistreur",
+    description:
+      "Réalisation d'un enregistreur autonome permettant la relève de nombreuses données pour un suivi en live des véhicules équipé.",
+    tags: ["Espressif", "C", "NMEA2000", "freeRTOS", "PCB"],
+    imageUrl: dataloImage,
   },
 ] as const;
 
