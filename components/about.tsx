@@ -23,15 +23,15 @@ export default function About() {
         <span className="font-medium">Energie, Electricité et Automatisme</span>, 
         j'ai décidé de poursuivre ma passion pour la programmation J’ai complété 
         ma formation dans le{" "}
-        <span className="font-medium">développement de software Embarqué</span>.{" "}
+        <span className="font-medium">développement de software embarqué</span>.{" "}
         <span className="italic">Ce que je préfère dans la programmation</span>, c'est
-        la résolution de problèmes.  J' <span className="underline">aime</span> {" "}
+        la résolution de problèmes.  J'<span className="underline">aime</span> {" "}
         le sentiment d'avoir enfin trouvé une solution à un problème. Mes compétences 
         de prédilection sont {" "}
         <span className="font-medium">
         Arduino et Expressif {" "}
         </span>
-        mais je maitrise également Raspberry, Pic, C, C++ et Python. Je cherche toujours
+        , mais je maitrise également Raspberry, Pic, C, C++ et Python. Je cherche toujours
          à apprendre de nouvelles technologies.
       </p>
       <br></br>
@@ -39,8 +39,8 @@ export default function About() {
         <span className="italic">Quand je ne code pas</span>, 
         j'aime pratiquer du sport, en particulier le {" "}
         <span className="font-medium">vélo</span>{" "}
-        ou je suis compétiteur à mes heures perdu. Et je suis en 
-        train dé d’apprendre à piloter une {" "} 
+        où je suis compétiteur à mes heures perdu. Et je suis en 
+        train d’apprendre à piloter une {" "} 
         <span className="font-medium">moto</span>{" "} sur circuit.
       </p>
     </motion.section>
