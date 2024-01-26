@@ -87,6 +87,7 @@ export const skillsData = [
   "Arduino",
   "Espressif",
   "Raspberry",
+  "freeRTOS",
 ] as const;
 
 export const experiencesData = [
