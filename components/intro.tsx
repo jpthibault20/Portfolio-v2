@@ -12,7 +12,7 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 import profilePicture from "../public/IMG_2083_Original.jpg";
 
 export default function Intro() {
-  const { ref } = useSectionInView("Acceuil", 0.5);
+  const { ref } = useSectionInView("Accueil", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
