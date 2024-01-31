@@ -120,7 +120,7 @@ export const experiencesData = [
     title: "Décathlon",
     location: "Metz, fr",
     description:
-      "vendeur omnicomerce (job étudiant).",
+      "Vendeur omnicomerce (job étudiant).",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2023",
   },
