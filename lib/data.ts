@@ -76,18 +76,19 @@ export const projectsData = [
 
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
   "C",
   "C++",
+  "HTML",
+  "CSS",
   "Python",
   "MATLAB",
+  "JavaScript",
+  "freeRTOS",
+  "Espressif",
   "Git",
   "Arduino",
-  "Espressif",
   "Raspberry",
-  "freeRTOS",
+  
 ] as const;
 
 export const experiencesData = [
