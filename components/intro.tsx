@@ -12,7 +12,7 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 import profilePicture from "../public/IMG_2083_Original.jpg";
 
 export default function Intro() {
-  const { ref } = useSectionInView("Acceuil", 0.5);
+  const { ref } = useSectionInView("Accueil", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
@@ -38,7 +38,7 @@ export default function Intro() {
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-52 w-52 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 

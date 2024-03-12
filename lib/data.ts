@@ -10,8 +10,8 @@ import dataloImage from '@/public/datalogger.jpg'
 
 export const links = [
   {
-    name: "Acceuil",
-    hash: "#Acceuil",
+    name: "Accueil",
+    hash: "#Accueil",
   },
   {
     name: "Moi",
@@ -26,8 +26,8 @@ export const links = [
     hash: "#Compétences",
   },
   {
-    name: "Expérience",
-    hash: "#expérience",
+    name: "Expériences",
+    hash: "#expériences",
   },
   {
     name: "Contact",
@@ -52,9 +52,9 @@ export const projectsData = [
     imageUrl: teeShirtConnecte
   },
   {
-    title: "Composant domotique",
+    title: "Composants domotique",
     description:
-      "Réalisation de composants actionneurs et capteur dans le but de la réalisation d'un système domotique complet (chauffage, lumière, température, présence, ...).",
+      "Réalisation de composants actionneurs et capteurs dans le but de la réalisation d'un système domotique complet (chauffage, lumière, température, présence, ...).",
     tags: ["Home assistant", "esphome", "espressif", "Fusion 360", "Raspberry", "impression 3D"],
     imageUrl: homeAssistant,
   },
@@ -76,18 +76,19 @@ export const projectsData = [
 
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
   "C",
   "C++",
+  "HTML",
+  "CSS",
   "Python",
   "MATLAB",
+  "JavaScript",
+  "freeRTOS",
+  "Espressif",
   "Git",
   "Arduino",
-  "Espressif",
   "Raspberry",
-  "freeRTOS",
+  
 ] as const;
 
 export const experiencesData = [
@@ -103,7 +104,7 @@ export const experiencesData = [
     title: "BTS SN",
     location: "Metz, fr",
     description:
-      "J'ai obtenue mon BTS Système Numérique au therme des 2 ans de formation",
+      "J'ai obtenue mon BTS Système Numérique au terme des 2 ans de formation",
     icon: React.createElement(LuGraduationCap),
     date: "2020",
   },
@@ -119,7 +120,7 @@ export const experiencesData = [
     title: "Decathlon",
     location: "Metz, fr",
     description:
-      "vendeur omnicomerce (job étudiant).",
+      "Vendeur omnicomerce (job étudiant).",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2023",
   },

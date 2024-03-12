@@ -21,9 +21,10 @@ export default function About() {
       <p className="mb-3">
       Après avoir obtenu un bac+5 en {" "}
         <span className="font-medium">Energie, Electricité et Automatisme</span>, 
-        j'ai décidé de poursuivre ma passion pour la programmation. J’ai complété 
+        j'ai décidé de poursuivre dans ma passion pour la programmation. J’ai complété 
         ma formation dans le{" "}
-        <span className="font-medium">développement de software embarqué</span>.{" "}
+        <span className="font-medium">développement de software embarqué</span>
+        en réalisant de nombreux projets.{" "}
         <span className="italic">Ce que je préfère dans la programmation</span>, c'est
         la résolution de problèmes.  J'<span className="underline">aime</span> {" "}
         le sentiment d'avoir enfin trouvé une solution à un problème. Mes compétences 
@@ -32,14 +33,14 @@ export default function About() {
         Arduino et Expressif {" "}
         </span>
         , mais je maitrise également Raspberry, Pic, C, C++ et Python. Je cherche toujours
-         à apprendre de nouvelles technologies.
+         à apprendre de nouveaux concepts.
       </p>
       <br></br>
       <p>
         <span className="italic">Quand je ne code pas</span>, 
-        j'aime pratiquer du sport, en particulier le {" "}
+        j'aime fair du sport, en particulier le {" "}
         <span className="font-medium">vélo</span>{" "}
-        où je suis compétiteur à mes heures perdu. Et je pratique la {" "} 
+        où je suis compétiteur à mes heures perdues. Et je fais de la {" "} 
         <span className="font-medium">moto</span>{" "} sur circuit.
       </p>
     </motion.section>

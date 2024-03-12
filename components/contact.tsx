@@ -32,7 +32,7 @@ export default function Contact() {
       <SectionHeading>Contactez-moi</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        contactez-moi à :{" "}
+        Contactez-moi à :{" "}
         <a className="italic" href="mailto:thibault@jp-developpement.com">
         thibault@jp-developpement.com
         </a>{" "}
