@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("Moi");
+  const { ref } = useSectionInView("Nous");
 
   return (
     <motion.section
@@ -17,31 +17,13 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="À propos"
     >
-      <SectionHeading>À propos de moi</SectionHeading>
+      <SectionHeading>À propos de nous</SectionHeading>
       <p className="mb-3">
-      Après avoir obtenu un bac+5 en {" "}
-        <span className="font-medium">Energie, Electricité et Automatisme</span>, 
-        j'ai décidé de poursuivre dans ma passion pour la programmation. J’ai complété 
-        ma formation dans le{" "}
-        <span className="font-medium">développement de software embarqué</span>
-        en réalisant de nombreux projets.{" "}
-        <span className="italic">Ce que je préfère dans la programmation</span>, c'est
-        la résolution de problèmes.  J'<span className="underline">aime</span> {" "}
-        le sentiment d'avoir enfin trouvé une solution à un problème. Mes compétences 
-        de prédilection sont {" "}
-        <span className="font-medium">
-        Arduino et Expressif {" "}
-        </span>
-        , mais je maitrise également Raspberry, Pic, C, C++ et Python. Je cherche toujours
-         à apprendre de nouveaux concepts.
-      </p>
-      <br></br>
-      <p>
-        <span className="italic">Quand je ne code pas</span>, 
-        j'aime fair du sport, en particulier le {" "}
-        <span className="font-medium">vélo</span>{" "}
-        où je suis compétiteur à mes heures perdues. Et je fais de la {" "} 
-        <span className="font-medium">moto</span>{" "} sur circuit.
+        Notre entreprise propose des services personnalisés en développement web, IoT, et mobile. Nous maîtrisons les technologies modernes pour créer des applications performantes, sécurisées et évolutives. Grâce à notre expertise en UX/UI, nous assurons des interfaces intuitives et un design soigné. Nous intégrons également des solutions IoT innovantes pour connecter vos dispositifs. Chaque projet est développé sur mesure, selon vos besoins. Nos compétences couvrent la création de sites web, d’applications mobiles et d’outils connectés. </p>
+      <br />
+      <p>Nous restons à la pointe des dernières tendances technologiques pour garantir une expérience utilisateur optimale et des performances maximales.
+
+
       </p>
     </motion.section>
   );

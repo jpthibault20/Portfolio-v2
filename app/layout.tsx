@@ -12,8 +12,8 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Thibault | Portfolio",
-  description: "Thibault is a software developer with 2 years of experience.",
+  title: "jp-developpement",
+  description: "jp-developpement es une entreprise qui propose des ervices de développement",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="fr" className="!scroll-smooth">
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >

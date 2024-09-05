@@ -29,12 +29,12 @@ export default function Contact() {
         once: true,
       }}
     >
-      <SectionHeading>Contactez-moi</SectionHeading>
+      <SectionHeading>Contactez-nous</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Contactez-moi à :{" "}
+        Contactez-nous :{" "}
         <a className="italic" href="mailto:thibault@jp-developpement.com">
-        thibault@jp-developpement.com
+          thibault@jp-developpement.com
         </a>{" "}
         ou via ce formulaire.
       </p>

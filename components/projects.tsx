@@ -7,11 +7,11 @@ import Project from "./project";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function Projects() {
-  const { ref } = useSectionInView("Projets", 0.5);
+  const { ref } = useSectionInView("Nos projets", 0.5);
 
   return (
     <section ref={ref} id="Projets" className="scroll-mt-28 mb-28">
-      <SectionHeading>Mes projets</SectionHeading>
+      <SectionHeading>Nos projets</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>

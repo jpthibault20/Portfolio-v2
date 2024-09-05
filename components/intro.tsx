@@ -9,11 +9,14 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import profilePicture from "../public/IMG_2083_Original.jpg";
+import profilePictureBlack from "../public/logo_black.png";
+import profilePictureWhite from "../public/logo_white.png";
+import { useTheme } from "@/context/theme-context";
 
 export default function Intro() {
   const { ref } = useSectionInView("Accueil", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+  const { theme } = useTheme();
 
   return (
     <section
@@ -31,15 +34,28 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image
-              src = {profilePicture}
-              alt="Thibault portrait"
-              width="192"
-              height="192"
-              quality="95"
-              priority={true}
-              className="h-52 w-52 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            />
+
+            {theme === "light" ? (
+              <Image
+                src={profilePictureBlack}
+                alt="Thibault portrait"
+                width="192"
+                height="192"
+                quality="95"
+                priority={true}
+                className="h-72 w-72 rounded-full object-cover"
+              />
+            ) : (
+              <Image
+                src={profilePictureWhite}
+                alt="Thibault portrait"
+                width="192"
+                height="192"
+                quality="95"
+                priority={true}
+                className="h-72 w-72 rounded-full object-cover"
+              />
+            )}
           </motion.div>
 
 
@@ -51,10 +67,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Bonjour, Je m'appelle Thibault.</span> Je suis{" "}
-        <span className="font-bold">développeur software embarqué</span> avec{" "}
-        <span className="font-bold">3 ans</span> d'expérience. J'aime développer des {" "}
-        <span className="italic">applications</span>  {" "} pour des systèmes embarqués.
+
+        <span className="font-bold">Notre entreprise propose des services de développement</span> web, mobile et IOT sur mesure.{" "}
+        <span className="font-bold">Nous concevons des solutions innovantes et performantes,</span> adaptées à vos besoins spécifiques, en alliant
+        <span className="font-bold"> expertise technique et créativité</span> pour vous accompagner.
       </motion.h1>
 
       <motion.div
@@ -73,7 +89,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contactez-moi{" "}
+          Contactez-nous{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -82,7 +98,7 @@ export default function Intro() {
           href="/CV.pdf"
           download
         >
-          Mon CV{" "}
+          CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 

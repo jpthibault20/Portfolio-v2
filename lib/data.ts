@@ -5,8 +5,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import robotAraignee from "@/public/robotAraignée.jpg";
 import teeShirtConnecte from "@/public/teeShirtConnect.jpg";
 import homeAssistant from "@/public/homeAssistant.png";
-import reactNextjs from '@/public/reacNextjs.png'
 import dataloImage from '@/public/datalogger.jpg'
+import dashboardAeroConnect from '@/public/dashboardAeroConnect.png'
+import dasboardPulsePeak from '@/public/dashboardPulsePeak.png'
 
 export const links = [
   {
@@ -14,20 +15,16 @@ export const links = [
     hash: "#Accueil",
   },
   {
-    name: "Moi",
+    name: "Nous",
     hash: "#À propos",
   },
   {
-    name: "Projets",
+    name: "Nos projets",
     hash: "#Projets",
   },
   {
-    name: "Compétences",
+    name: "Nos compétences",
     hash: "#Compétences",
-  },
-  {
-    name: "Expériences",
-    hash: "#expériences",
   },
   {
     name: "Contact",
@@ -38,11 +35,11 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Robot araignée autonome",
+    title: "SAAS planning pour ULM/AVION",
     description:
-      "Pour un projet de fin d'année, j'ai réalisé un robot de type araignée complètement autonome (pour se déplacer, scanner la pièce, retour à l'origine).",
-    tags: ["C++", "Arduino", "imprimante 3d", "Fusion 360"],
-    imageUrl: robotAraignee,
+      "SAAS optimisant les rendez-vous instructeur-élève, le suivi des performances, la location de machines et le paiement intégré.",
+    tags: ["React", "Strip", "NextAuth", "Prisma", "PostgreSQL", "Typescript", "Next.js", "Tailwind", "Hostinger", "Vercel"],
+    imageUrl: dashboardAeroConnect,
   },
   {
     title: "Tee-shirt connectée",
@@ -59,11 +56,11 @@ export const projectsData = [
     imageUrl: homeAssistant,
   },
   {
-    title: "Portfolio",
+    title: "PulsePeak",
     description:
-      "Création d'un protfolio responsive.",
-    tags: ["React", "Next.js", "Tailwind", "Typescript"],
-    imageUrl: reactNextjs,
+      "Création d'une application mobile permettant d'accompagné des sportifs dans la réssite de leurs objectifs physiques.",
+    tags: ["React Native", "Tailwind", "Typescript", "Supabase", "deep learning", "machine learning", "Expo", "stripe", "Prisma"],
+    imageUrl: dasboardPulsePeak,
   },
   {
     title: "Enregistreur",
@@ -78,17 +75,30 @@ export const projectsData = [
 export const skillsData = [
   "C",
   "C++",
-  "HTML",
-  "CSS",
-  "Python",
-  "MATLAB",
-  "JavaScript",
   "freeRTOS",
   "Espressif",
-  "Git",
   "Arduino",
   "Raspberry",
-  
+  "Python",
+  "React",
+  "Next.js",
+  "Tailwind",
+  "Typescript",
+  "JavaScript",
+  "Stripe",
+  "Prisma",
+  "PostgreSQL",
+  "NextAuth",
+  "appwrite",
+  "Supabase",
+  "Expo",
+  "deep learning",
+  "machine learning",
+  "Hostinger",
+  "Vercel",
+  "React Native",
+  "MATLAB",
+  "Git",
 ] as const;
 
 export const experiencesData = [
