@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("Nous");
+  const { ref } = useSectionInView("Moi");
 
   return (
     <motion.section
@@ -17,14 +17,23 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="À propos"
     >
-      <SectionHeading>À propos de nous</SectionHeading>
+      <SectionHeading>À propos de moi</SectionHeading>
       <p className="mb-3">
-        Notre entreprise propose des services personnalisés en développement web, IoT, et mobile. Nous maîtrisons les technologies modernes pour créer des applications performantes, sécurisées et évolutives. Grâce à notre expertise en UX/UI, nous assurons des interfaces intuitives et un design soigné. Nous intégrons également des solutions IoT innovantes pour connecter vos dispositifs. Chaque projet est développé sur mesure, selon vos besoins. Nos compétences couvrent la création de sites web, d’applications mobiles et d’outils connectés. </p>
-      <br />
-      <p>Nous restons à la pointe des dernières tendances technologiques pour garantir une expérience utilisateur optimale et des performances maximales.
-
-
+        Après avoir obtenu un bac+5 en{" "}
+        <span className="font-medium">Énergie, Électricité et Automatisme</span>, j'ai décidé de poursuivre ma passion pour la programmation et l'électronique. J’ai complété ma formation en développant des solutions pour des{" "}
+        <span className="font-medium">systèmes embarqués</span> et je me suis diversifié en créant des{" "}
+        <span className="font-medium">applications web</span>.{" "}
+        <span className="italic">Ce que je préfère dans la programmation</span>, c'est résoudre des problèmes complexes et voir les résultats concrets. Mes compétences incluent{" "}
+        <span className="font-medium">Next.js, React Native, Expo</span>, ainsi que l'utilisation de plateformes comme{" "}
+        <span className="font-medium">Espressif et Arduino</span> pour la conception de systèmes embarqués. Toujours curieux, je cherche constamment à apprendre de nouveaux concepts.
       </p>
+      <br></br>
+      <p>
+        <span className="italic">Quand je ne code pas</span>, je pratique le sport, en particulier le{" "}
+        <span className="font-medium">vélo</span> en compétition, et je fais de la{" "}
+        <span className="font-medium">moto</span> sur circuit.
+      </p>
+
     </motion.section>
   );
 }
